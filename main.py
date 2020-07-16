@@ -3,13 +3,13 @@ import discord
 import random
 from discord.ext import commands
 
-token = "       "
+token = "        "
 
 bot = commands.Bot(command_prefix=("!"), self_bot=True)
 
 @bot.event
 async def on_ready():
-    print("Bot presence t u r n e d on ( ͡° ͜ʖ ͡°)")
+    print("Selfbot has been initiated")
 
 @bot.command(pass_context=True)
 async def e(ctx, message):
